@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.crabbyq"
+	name="The Crabby Quilter"
+	version="1.1"
+	provider-name="Main Street">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Quilting and Sewing from Youtube</summary>
+    <description lang="en">The Best Free Quilting and Sewing programs on Youtube</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.gizwiz"
+	name="The Giz Wiz"
+	version="1.0"
+	provider-name="Main Street">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Watch The Giz Wiz </summary>
+    <description lang="en">Watch The Giz Wz Show</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>http://gizwiz.tv</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.mainstreetdisney"
+	name="MainStreet Disney"
+	version="1.0"
+	provider-name="MainStreet">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">The Best Virtual Disney Experience</summary>
+    <description lang="en">No Long Lines, No wait times, It's Disney from the comfort of Home</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>n/a</website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.steeple"
+	name="steeple"
+	version="1.0"
+	provider-name="MainStreet">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Christian content for Kodi</summary>
+    <description lang="en">Free Streaming Christian content</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.thewoo"
+	name="Adam The Woo"
+	version="1.0"
+	provider-name="Main Street">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Adam The Woo</summary>
+    <description lang="en">Watch Adam The Woo</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website>http://adamthewoo.tumblr.com/</website>
+  </extension>
+</addon>
+</addons>

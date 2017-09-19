@@ -20,7 +20,7 @@ local = xbmcaddon.Addon(id=addonID)
 icon = local.getAddonInfo('icon')
 
 
-YOUTUBE_CHANNEL_ID_1 = "TWiTGizWiz/live" 	# live
+
 YOUTUBE_CHANNEL_ID_2 = "TWiTGizWiz" 	# episodes
 
 
@@ -45,17 +45,11 @@ def run():
 def main_list(params):
     plugintools.log("docu.main_list "+repr(params))
 
-    plugintools.add_item( 
-        #action="", 
-        title="Watch the Giz Wiz Live (not a 24 hour stream)",
-        url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_1+"/",
-        thumbnail="https://yt3.ggpht.com/-qUlrIjmUlnU/AAAAAAAAAAI/AAAAAAAAAAA/c3vNDDuhqzY/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/giz/fanart.jpg",
-        folder=True )
+
 		
     plugintools.add_item( 
         #action="", 
-        title="Watch the Giz wiz past episodes",
+        title="Select an Episode",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_2+"/",
         thumbnail="https://yt3.ggpht.com/-qUlrIjmUlnU/AAAAAAAAAAI/AAAAAAAAAAA/c3vNDDuhqzY/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
 		fanart="http://berryburchett.net/kodi/addons/giz/fanart.jpg",

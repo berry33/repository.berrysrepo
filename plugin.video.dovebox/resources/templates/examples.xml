@@ -1,0 +1,149 @@
+<folder>
+
+	<item>
+		<type>folder</type><!-- link is not going to play-->
+		<mode>makexmlplaylist</mode>
+		<title>Videos From Internet Archive</title>
+		<url>Point to your xml page here</url>
+		<referer></referer>
+		<thumb></thumb>
+		<fanart></fanart>
+		<info>playable links follow,so no type required next page</info>
+		<genre>Various</genre>
+		<year>1900</year>
+		<seasons></seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+	<item>
+		<type>folder</type><!-- link is not going to play-->
+		<mode>makexmldir</mode>
+		<title>Another directory follows with no playable links</title>
+		<url>point to page here</url>
+		<referer></referer>
+		<thumb></thumb>
+		<fanart></fanart>
+		<info>dont forget to set the type to folder in the next page</info>
+		<genre></genre>
+		<year></year>
+		<seasons>3</seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+	<item>
+		<type>folder</type><!-- link is not going to play-->
+		<mode>m3u</mode>
+		<title>m3u links another page will open</title>
+		<url>point to page here</url> 
+		<referer></referer>
+		<thumb></thumb>
+		<fanart>if you want fanart try fanart.tv</fanart>
+		<info>url should point to a m3u file containing relevant information
+		do not set type on m3u page just load a standard m3u file</info>
+		<genre></genre>
+		<year>1963</year>
+		<seasons></seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+	<item>
+		<type></type><!-- link is going to play-->
+		<mode>play</mode>
+		<title>a lot of it about</title>
+		<url>playme.mkv</url><!--will not play correctly if folder in type at top so dont do it, put all playable links on one page, try not to mix and match please -->
+		<referer>www.foobar.com</referer>
+		<thumb></thumb>
+		<fanart>www.artfromfans.png</fanart>
+		<info></info>
+		<genre></genre>
+		<year></year>
+		<seasons></seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+	<item>
+		<type></type><!-- link is not going to play because, nothing there-->
+		<mode></mode>
+		<title>just a packer with a title</title>
+		<url>none</url><!-- link is not going to play-->
+		<referer></referer>
+		<thumb></thumb>
+		<fanart></fanart>
+		<info></info>
+		<genre></genre>
+		<year></year>
+		<seasons></seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+	<item>
+		<type>folder</type><!-- link is not going to play-->
+		<mode></mode>
+		<title></title>
+		<url>none</url><!-- link is not going to play-->
+		<referer></referer>
+		<thumb></thumb>
+		<fanart></fanart>
+		<info>just a packer without a title</info>
+		<genre></genre>
+		<year></year>
+		<seasons></seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+	<item>
+		<type></type><!-- link is going to play-->
+		<mode>sportsdevil</mode><!--sportsdevil will try to resolve the link-->
+		<title>playable link</title>
+		<preview>plugin://plugin.video.youtube/?action=play_video&videoid=d96cjJhvlMA&feature=youtu.be</preview><!--preview must always be playable, use the template given-->
+		<url>point to playable link</url>
+		<referer><!--sometimes helps to put a referer in for SD--></referer>
+		<thumb>www.thumbthumbthumbthumb.jpg</thumb>
+		<fanart>www.try looking up fanart .png</fanart>
+		<info> if you want icons try the logodb</info>
+		<genre>comedy</genre>
+		<year></year>
+		<seasons>5</seasons>
+		<episodes>72</episodes>
+		<poster>www.postersgalore.jpg</poster>
+	</item>
+
+	<item>
+		<type></type><!-- link is going to play-->
+		<mode>f4m</mode>
+		<title>playable link</title>
+		<preview>plugin://plugin.video.youtube/?action=play_video&videoid=d96cjJhvlMA&feature=youtu.be</preview><!--preview must always be playable, use the template given-->
+		<url>f4m or ts or m3u8 link in here to be converted to f4m link</url>
+		<referer></referer>
+		<thumb>www.thumbthumbthumbthumb.jpg</thumb>
+		<fanart>www.try looking up fanart .png</fanart>
+		<info> if you want icons try the logodb</info>
+		<genre>comedy</genre>
+		<year></year>
+		<seasons>5</seasons>
+		<episodes>72</episodes>
+		<poster>www.postersgalore.jpg</poster>
+	</item>
+
+	<item>
+		<type>folder</type>
+		<mode>makexmlplaylist</mode>
+		<title> minimum requirements </title>
+		<url> link here </url>
+	</item>
+
+	<item>
+		<type></type>
+		<mode></mode>
+		<title></title>
+		<url>none</url><!-- creates a blank space in the kodi list-->
+	</item>
+
+</folder>
+

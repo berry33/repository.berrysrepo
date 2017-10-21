@@ -1,0 +1,78 @@
+<folder>
+
+	<item>
+		<type></type>
+		<mode></mode>
+		<title>[B][COLOR lime]•[/COLOR] [COLOR royalblue]DC[/COLOR] [COLOR azure]and[/COLOR] [COLOR crimson]MARVEL[/COLOR] MOVIES[/B] </title>
+		<thumb>https://moviefiles.alphacoders.com/800/poster-thumb-80034.jpg</thumb>
+		<preview></preview>
+		<url>none</url>
+		<genre></genre>
+		<info></info>
+		<fanart></fanart>
+		<year></year>
+		<seasons></seasons>
+		<episodes></episodes>
+	</item>
+
+	<item>
+		<type></type>
+		<mode>urlresolver</mode>
+		<title>[B]Iron Man (2008) m720p Lat/Eng[/B]</title>
+		<thumb>https://moviefiles.alphacoders.com/227/poster-thumb-227.jpg</thumb>
+		<preview>plugin://plugin.video.youtube/?action=play_video&videoid=bK_Y5LjSJ-Y&feature=youtu.be</preview>
+		<url>resolvable link</url>
+		<genre>Action, Adventure, Sci-Fi</genre>
+		<info>After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.</info>
+		<fanart></fanart>
+		<year>2008</year>
+		<seasons></seasons>
+		<episodes></episodes>
+	</item>
+
+	<item>
+		<type></type>
+		<mode>utube</mode><!--going to play a youtube link-->
+		<title>[B]Iron Man (2008) m720p Lat/Eng[/B]</title>
+		<thumb>https://moviefiles.alphacoders.com/227/poster-thumb-227.jpg</thumb>
+		<preview>plugin://plugin.video.youtube/?action=play_video&videoid=bK_Y5LjSJ-Y&feature=youtu.be</preview>
+		<url>resolvable link if you like</url><!-- the last numbers after the = in the youtube url-->
+		<genre>Action, Adventure, Sci-Fi</genre>
+		<info>After being held captive in an Afghan cave, billionaire engineer Tony Stark creates a unique weaponized suit of armor to fight evil.</info>
+		<fanart></fanart>
+		<year>2008</year>
+		<seasons></seasons>
+		<episodes></episodes>
+	</item>
+
+	<item>
+		<type></type>
+		<mode></mode>
+		<title>[B]Batman The dark knight (2008) 1080p Lat/Eng[/B]</title>
+		<thumb>https://picfiles.alphacoders.com/127/thumb-127248.jpg</thumb>
+		<preview>plugin://plugin.video.youtube/?action=play_video&videoid=kmJLuwP3MbY&feature=youtu.be</preview>
+		<url>valid playing url</url>
+		<genre>Action, Crime, Drama</genre>
+		<info>When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, the Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.</info>
+		<fanart></fanart>
+		<year>2008</year>
+		<seasons></seasons>
+		<episodes></episodes>
+	</item>
+
+	<item>
+		<type></type>
+		<mode>play</mode>
+		<title>[B]Guardians Of The Galaxy (2014) 1080p. Lat/Eng[/B]</title>
+		<thumb>https://moviefiles.alphacoders.com/198/poster-thumb-1982.jpg</thumb>
+		<preview>plugin://plugin.video.youtube/?action=play_video&videoid=d96cjJhvlMA&feature=youtu.be</preview>
+		<url>valid playing url here</url>
+		<genre>Action, Adventure, Sci-Fi </genre>
+		<info>A group of intergalactic criminals are forced to work together to stop a fanatical warrior from taking control of the universe.</info>
+		<fanart></fanart>
+		<year>2014</year>
+		<seasons></seasons>
+		<episodes></episodes>
+	</item>
+
+</folder>

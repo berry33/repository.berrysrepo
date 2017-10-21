@@ -1,0 +1,30 @@
+'' (null)				Play the file either preview or main url
+
+acestream				Convert the hash into acestream/plexus link and play
+
+dmsear					sends to internal dailymotion search engine
+
+f4m						convert the link into f4m link and play
+
+intres					sends link to internal resolver (lib/resolvers)
+
+m3u						open a m3u file
+
+makexmldir				make a directory from an xml file
+
+makexmlplaylist			make a playlist from an xml file
+
+play 					play the file
+
+sopcast					make a sopcast/plexus link and play
+
+sportsdevil				make a sportsdevil link and play
+
+utube					make a utube link and play
+
+urlresolver				try to resolve a link and play
+
+ytsear					sends to internal youtube search engine
+
+
+

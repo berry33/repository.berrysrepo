@@ -1,0 +1,162 @@
+<folder>
+	
+
+	<item>
+		<type></type><!-- no type here means the links are going to play-->
+		<mode></mode>
+		<title></title>
+		<url></url>
+		<preview>if a preview link is provided, a window will open asking if you want to play preview or not</preview>
+		<referer></referer>
+		<thumb></thumb>
+		<fanart></fanart>
+		<info>if no mode, the link has to be playable i.e. .mp4, .mkv etc..
+		</info>
+		<genre></genre>
+		<year></year>
+		<seasons></seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+	<item>
+		<type></type><!-- no type here means the links are going to play-->
+		<mode></mode>
+		<title></title>
+		<url></url>
+		<preview>if a preview link is provided, a window will open asking if you want to play preview or not</preview>
+		<referer></referer>
+		<thumb></thumb>
+		<fanart></fanart>
+		<info></info>
+		<genre></genre>
+		<year></year>
+		<seasons></seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+	<item>
+		<type></type><!-- no type here means the links are going to play-->
+		<mode>play</mode>
+		<title></title>
+		<url></url>
+		<preview></preview>
+		<referer></referer>
+		<thumb></thumb>
+		<fanart></fanart>
+		<info>will try to play a bog standard link</info>
+		<genre></genre>
+		<year></year>
+		<seasons></seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+	<item>
+		<type></type><!-- no type here means the links are going to play-->
+		<mode>urlresolver</mode>
+		<title></title>
+		<url></url>
+		<preview></preview>
+		<referer></referer>
+		<thumb></thumb>
+		<fanart></fanart>
+		<info>will use urlresolver to resolve a link then play it
+			if you use real debrid or any similar service, use urlresolver
+			to input your account details</info>
+		<genre></genre>
+		<year></year>
+		<seasons></seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+	<item>
+		<type></type><!-- no type here means the links are going to play-->
+		<mode>f4m</mode>
+		<title></title>
+		<url></url>
+		<preview></preview>
+		<referer></referer>
+		<thumb></thumb>
+		<fanart></fanart>
+		<info>makes a ts,m3u8,f4m link playable with the help of f4mtester
+		</info>
+		<genre></genre>
+		<year></year>
+		<seasons></seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+	<item>
+		<type></type><!-- no type here means the links are going to play-->
+		<mode>sportsdevil</mode>
+		<title></title>
+		<url></url>
+		<preview></preview>
+		<referer></referer>
+		<thumb></thumb>
+		<fanart></fanart>
+		<info>a good all round resolver, it helps sometimes to also add a referer</info>
+		<genre></genre>
+		<year></year>
+		<seasons></seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+	<item>
+		<type></type><!-- no type here means the links are going to play-->
+		<mode>sopcast</mode>
+		<title></title>
+		<url>requires the sop address</url>
+		<preview></preview>
+		<referer></referer>
+		<thumb></thumb>
+		<fanart></fanart>
+		<info>Creates a playable plexus link</info>
+		<genre></genre>
+		<year></year>
+		<seasons></seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+	<item>
+		<type></type><!-- no type here means the links are going to play-->
+		<mode>acestream</mode>
+		<title></title>
+		<url>requires the hash number</url>
+		<preview></preview>
+		<referer></referer>
+		<thumb></thumb>
+		<fanart></fanart>
+		<info>creates a playable plexus link</info>
+		<genre></genre>
+		<year></year>
+		<seasons></seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+	<item>
+		<type></type><!-- no type here means the links are going to play-->
+		<mode>utube</mode>
+		<title></title>
+		<url>requires the last part of the url,so anything after the equals (=) sign</url>
+		<preview></preview>
+		<referer></referer>
+		<thumb></thumb>
+		<fanart></fanart>
+		<info>creates a playable youtube link</info>
+		<genre></genre>
+		<year></year>
+		<seasons></seasons>
+		<episodes></episodes>
+		<poster></poster>
+	</item>
+
+
+</folder>

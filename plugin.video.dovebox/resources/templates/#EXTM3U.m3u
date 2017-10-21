@@ -1,0 +1,307 @@
+#EXTM3U
+#EXTINF:-1,UK: BBC1 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3460.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BBC2 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3459.ts;name=Mick3yB0y
+#EXTINF:-1,UK: ITV1 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3454.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Channel 4 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13712.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Channel 5 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/814.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky One
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3350.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Two
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3350.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Living
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/2909.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Atlantic
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/2909.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Gold
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3607.ts;name=Mick3yB0y
+#EXTINF:-1,UK: DAVE
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3456.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Comedy Central
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/2927.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Syfy
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/4896.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Universal
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/vWVkgrSsuD/jAJvXsYSG5/13572.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BBC4 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/8364.ts;name=Mick3yB0y
+#EXTINF:-1,UK: ITV2 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/170.ts;name=Mick3yB0y
+#EXTINF:-1,UK: ITV3 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/169.ts;name=Mick3yB0y
+#EXTINF:-1,UK: ITV4 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/168.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Arts
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/145.ts;name=Mick3yB0y
+#EXTINF:-1,UK: ITV Encore
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url==http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/4889.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Fox
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/vWVkgrSsuD/jAJvXsYSG5/7089.ts;name=Mick3yB0y
+#EXTINF:-1,UK: TLC
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/217.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Comedy Central Extra
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/8255.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Alibi
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7085.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Food Network
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/8392.ts;name=Mick3yB0y
+#EXTINF:-1,UK: E4
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url==http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/4889.ts;name=Mick3yB0y
+#EXTINF:-1,UK: MORE4
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7062.ts;name=Mick3yB0y
+#EXTINF:-1,UK: 4Seven
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/482.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Quest
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7053.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Challenge
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13560.ts;name=Mick3yB0y
+#EXTINF:-1,UK: CBS REALITY
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/vWVkgrSsuD/jAJvXsYSG5/7076.ts;name=Mick3yB0y
+#EXTINF:-1,UK: CBS DRAMA
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/2069.ts;name=Mick3yB0y
+#EXTINF:-1,UK: CBS ACTION
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/14499.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Pick
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/158.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Really
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/153.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Lifetime
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/8256.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Spike
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/1978.ts;name=Mick3yB0y
+#EXTINF:-1,UK: My5
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=hhttp://root-iptv.is-found.org:25461/live/roald/roald/9857.ts;name=Mick3yB0y
+#EXTINF:-1,UK: 5USA
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/212.ts;name=Mick3yB0y
+#EXTINF:-1,UK: 5STAR
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/vWVkgrSsuD/jAJvXsYSG5/7086.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Dmax
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3608.ts;name=Mick3yB0y
+#EXTINF:-1,UK: W
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3365.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Drama
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13550.ts;name=Mick3yB0y
+#EXTINF:-1,UK: ITVBE
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://pro213.com/live/abounnachat460/o4341h/3713.ts;name=Mick3yB0y
+#EXTINF:-1,UK: RTE One
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7050.ts;name=Mick3yB0y
+#EXTINF:-1,UK: RTE Two
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7051.ts;name=Mick3yB0y
+#EXTINF:-1,UK: tru TV
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13500.ts;name=Mick3yB0y
+#EXTINF:-1,UK: E!
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7069.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Baby TV
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/477.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Kix
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/15483.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Cartoon Network
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/5570.ts;name=Mick3yB0y
+#EXTINF:-1,UK: NickJr
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/14459.ts;name=Mick3yB0y
+#EXTINF:-1,UK: NickJr + 1
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/863.ts;name=Mick3yB0y
+#EXTINF:-1,UK: NickJr Too
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/265.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Nicktoons
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3612.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Disney Junior
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/265.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Disney Channel
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3446.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Nickelodeon
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/186.ts;name=Mick3yB0y
+#EXTINF:-1,UK: DISNEY XD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://pro213.com/live/abounnachat460/o4341h/2826.ts;name=Mick3yB0y
+#EXTINF:-1,UK: CBEEBIES
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/14552.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Tiny Pop
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/252.ts;name=Mick3yB0y
+#EXTINF:-1,UK: CBBC
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/477.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Boomerang
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13598.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Discovery Shed
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/843.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Discovery Channel
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/4928.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Discovery Turbo
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://root-iptv.is-found.org:25461/live/roald/roald/484.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Discovery Science
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3360.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Animal Planet
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/211.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Nat Geo
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/160.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Nat Geo Wild
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7025.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Discovery History
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7029.ts;name=Mick3yB0y
+#EXTINF:-1,UK: YESTERDAY
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/123.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Investigation Discovery
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/172.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Crime & Investigation
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/192.ts;name=Mick3yB0y
+#EXTINF:-1,UK: H2
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/176.ts;name=Mick3yB0y
+#EXTINF:-1,UK: History Channel
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/175.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Eden
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/12460.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Travel Channel
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7002.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Home & Health
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7369.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Home
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13537.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Horror Channel
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13585.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sony Channel
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13512.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Cinema Premiere
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/794.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Cinema Modern Greats
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/4917.t;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Movies Comedy
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/140.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Cinema Action & Adventure
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/1897.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Cinema Family
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/148.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Cinema Drama & Romance
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/1895.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Movies Sci-Fi Horror
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/137.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Cinema Select
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/4915.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Cinema Disney
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7017.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Cinema Thiller
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7019.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Cinema Comedy
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7022.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sony Movies
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13510.ts;name=Mick3yB0y
+#EXTINF:-1,UK: TCM HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7006.ts;name=Mick3yB0y
+#EXTINF:-1,UK: FILM 4
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7066.ts;name=Mick3yB0y
+#EXTINF:-1,UK: True Movies 1
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/6976.ts;name=Mick3yB0y
+#EXTINF:-1,UK: True Movies 2
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7375.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Movies4Men
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/8258.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Movies 24
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://drop1.ipfox.co/live/Safin_Rmrwwr/U3w9wDUv/1985.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Sports 1 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/2903.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Sports 2 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/2902.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Sports 3 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/2901.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Sports 4 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/2900.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Sports 5 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3331.ts;name=Mick3yB0y
+#EXTINF:-1,UK: SKY SPORTS  F1 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3332.ts;name=Mick3yB0y
+#EXTINF:-1,UK: SKY SPORTS NEWS HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/4905.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BT Sport 1 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/4923.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BT Sport 2 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/2928.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BT Sport ESPN
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3447.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky Sports Mix HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13713.ts;name=Mick3yB0y
+#EXTINF:-1,UK: EIR Sport 1
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/17372.ts;name=Mick3yB0y
+#EXTINF:-1,UK: EIR Sport 2
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/17373.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Eurosport 1
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3336.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Eurosport 2
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7374.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Premier Sports
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/10163.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Motors TV
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/8257.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Horse & Country
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13534.ts;name=Mick3yB0y
+#EXTINF:-1,UK: AT THE RACES
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/4913.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Racing UK
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/4907.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Bike
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13599.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BT Sport Europe/3 HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/8360.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BT SPORTS EUROPE
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7081.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BT Sports Extra 1
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7370.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BT Sport Extra 2
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13565.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BT Sport Extra 3
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13564.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BT Sport Extra 4
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13563.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BT Sport Extra 5
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13562.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BT Sport Extra 6
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13561.ts;name=Mick3yB0y
+#EXTINF:-1,UK: ITV Box Off HD 1
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/16085.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BET
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/9148.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Setanta HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/4906.ts;name=Mick3yB0y
+#EXTINF:-1,UK: BOX NATION
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3360.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Sky BoxOff (PPV Events Only)
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7979.ts;name=Mick3yB0y
+#EXTINF:-1,UK: MUTV HD
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3452.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Liverpool LFCTV
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://1sn.ns1.name:18800/live/fero.iptvTRLoc/fhfgsfadfsgd/3612.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Celtic FC TV (Live for Matches )
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/12457.ts;name=Mick3yB0y
+#EXTINF:-1,UK: The Vault
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13577.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Vintage TV
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/9552.ts;name=Mick3yB0y
+#EXTINF:-1,UK: MTV Music
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13582.ts;name=Mick3yB0y
+#EXTINF:-1,UK: MTV 90s
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13485.ts;name=Mick3yB0y
+#EXTINF:-1,UK: MTV
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7061.ts;name=Mick3yB0y
+#EXTINF:-1,UK: MTV Base
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7060.ts;name=Mick3yB0y
+#EXTINF:-1,UK: MTV Hits
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7057.ts;name=Mick3yB0y
+#EXTINF:-1,UK: MTV Dance
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7058.ts;name=Mick3yB0y
+#EXTINF:-1,UK: MTV Rocks
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7056.ts;name=Mick3yB0y
+#EXTINF:-1,UK: MTV Classic
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7059.ts;name=Mick3yB0y
+#EXTINF:-1,UK: VH1
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/7000.ts;name=Mick3yB0y
+#EXTINF:-1,UK: VIVA
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://pro213.com/live/abounnachat460/o4341h/3743.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Starz TV
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13578.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Flava
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13587.ts;name=Mick3yB0y
+#EXTINF:-1,UK: Scuzz
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13579.ts;name=Mick3yB0y
+#EXTINF:-1,UK: 4Music
+plugin://plugin.video.f4mTester/?streamtype=TSDOWNLOADER&amp;url=http://145.239.108.17:6500/live/36HzfHlJse/QWVCdutSZL/13570.ts;name=Mick3yB0y

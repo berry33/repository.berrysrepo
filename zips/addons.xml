@@ -36,6 +36,44 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.dovebox" name=" [B]Dove Box[/B]" version="1.0.0" provider-name="Berry Burchett">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.urlresolver" version="3.0.33.01"/>
+        <import addon="plugin.video.youtube" version="5.3.12"/>
+        <import addon="script.module.beautifulsoup" version="3.2.1"/>
+        <import addon="script.module.beautifulsoup4" version="4.5.3"/>
+        <import addon="script.module.requests" />
+        <import addon="script.module.httplib2" />
+        <import addon="script.module.simple.downloader" version="0.9.4"/>
+        <import addon="plugin.video.f4mTester" />
+        <import addon="script.video.F4mProxy" />
+        <import addon="program.plexus" version="0.1.7" optional="true"/>
+        <import addon="plugin.video.SportsDevil" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="Eggz.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">Watch Christian Movies</summary>
+        <description lang="en">Whatch a large collection of Christian Movies that's updated often.</description>
+        <disclaimer lang="en"></disclaimer>
+        <language></language>
+        <platform>all</platform>
+        <license> GPL or Artistic License. These licenses are available at http://www.opensource.org</license>
+        <forum></forum>
+        <website></website>
+        <email></email>
+        <source></source>
+        <news></news>
+        <assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+            <screenshot></screenshot>
+        </assets>
+    </extension>
+</addon>
+
 <addon id="plugin.video.gizwiz"
 	name="The Giz Wiz"
 	version="1.1"
@@ -122,6 +160,27 @@
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Christian content for Kodi</summary>
     <description lang="en">Free Streaming Christian content</description>
+    <platform>all</platform>
+    <forum>n/a</forum>
+    <website></website>
+  </extension>
+</addon>
+
+<addon id="plugin.video.techie"
+	name="Techie"
+	version="1.0"
+	provider-name="Berry Burchett">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Tech Podcast</summary>
+    <description lang="en">Watch many good Tech Podcast</description>
     <platform>all</platform>
     <forum>n/a</forum>
     <website></website>

@@ -4,10 +4,10 @@ import os, xbmc, xbmcaddon
 ### User Edit Variables #################################
 #########################################################
 ADDON_ID       = xbmcaddon.Addon().getAddonInfo('id')
-ADDONTITLE     = 'Wanted Wizard'
+ADDONTITLE     = 'Couch Surfer Wizard'
 EXCLUDES       = [ADDON_ID]
 # Text File with build info in it.
-BUILDFILE      = 'http://berryburchett.net/kodi/wanted/build.txt'
+BUILDFILE      = 'http://berryburchett.net/kodi/couchsurfer/build.txt'
 # How often you would list it to check for build updates in days
 # 0 being every startup of kodi
 UPDATECHECK    = 0
@@ -52,10 +52,10 @@ SPACER         = '='
 
 # You can edit these however you want, just make sure that you have a %s in each of the
 # THEME's so it grabs the text from the menu item
-COLOR1         = 'darkred'
-COLOR2         = 'darkred'
+COLOR1         = 'yellow'
+COLOR2         = 'yellow'
 # Primary menu items   / %s is the menu item and is required
-THEME1         = '[COLOR '+COLOR1+'][B][I]([COLOR '+COLOR2+']Wanted[/COLOR])[/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR][/I]'
+THEME1         = '[COLOR '+COLOR1+'][B][I]([COLOR '+COLOR2+']Aftermath[/COLOR])[/B][/COLOR] [COLOR '+COLOR2+']%s[/COLOR][/I]'
 # Build Names          / %s is the menu item and is required
 THEME2         = '[COLOR '+COLOR2+']%s[/COLOR]'
 # Alternate items      / %s is the menu item and is required
@@ -101,12 +101,12 @@ REPOZIPURL     = ''
 ### NOTIFICATION WINDOW##################################
 #########################################################
 # Enable Notification screen Yes or No
-ENABLE         = 'Yes'
+ENABLE         = 'No'
 # Url to notification file
-NOTIFICATION   = 'http://berryburchett.net/kodi/wanted/note.txt'
+NOTIFICATION   = ''
 # Use either 'Text' or 'Image'
-HEADERTYPE     = 'Text'
-HEADERMESSAGE  = 'A Note From Wanted Builds '
+HEADERTYPE     = ''
+HEADERMESSAGE  = ''
 # url to image if using Image 424x180
 HEADERIMAGE    = ''
 # Background for Notification Window

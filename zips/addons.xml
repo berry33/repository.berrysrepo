@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.wantedwizard" name="Wanted Wizard" version="0.1.7" provider-name="Main Street">
+<addon id="plugin.program.couchsurfer" name="Couch Surfer Wizard" version="0.1.7" provider-name="Couch Surfer">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -9,8 +9,8 @@
   </extension>
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">Wanted Wizard</summary>
-    <description lang="en">With the Wanted Wizard get the best Kodi Build in the West.</description>
+    <summary lang="en">Couch Surfer Wizard</summary>
+    <description lang="en">Get Couch Surfer Build</description>
     <platform>all</platform>
   </extension>
 </addon>

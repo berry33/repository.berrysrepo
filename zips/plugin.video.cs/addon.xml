@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.christmastime" name="Christmas Time's A Coming" version="1.0.1" provider-name="Berry">
+<addon id="plugin.video.cs" name="The couchsurfer Collection" version="1.0.1" provider-name="Berry">
         <requires>
                 <import addon="xbmc.python" version="2.19.0" />
                 <import addon="script.module.nanscrapers" version="0.5.5" />
@@ -18,8 +18,8 @@
         <extension point="xbmc.service" library="service.py" start="[login|startup]">
               </extension>
         <extension point="xbmc.addon.metadata">
-          <summary lang="en">Watch Christmas Movies</summary>
-          <description lang="en">Watch Christmas Movies</description>
+          <summary lang="en">More added as I can</summary>
+          <description lang="en">Movies and Stuff</description>
           <platform>all</platform>
           <forum></forum>
           <website></website>

@@ -21,7 +21,7 @@ import __builtin__
 # CONFIGURATION VARIABLES
 # -----------------------
 # change these to suit your addons
-root_xml_url = "http://berryburchett.net/kodi/xmls/christmas.xml"  # url of the root xml file
+root_xml_url = "http://berryburchett.net/kodi/xmls/surfermain.xml"  # url of the root xml file
 __builtin__.tvdb_api_key = "CDD0D30529BB0998"  # tvdb api key
 __builtin__.tmdb_api_key = "0b68fef54cc633aa8f09417513e04e09"  # tmdb api key
 __builtin__.trakt_client_id = ""  # trakt client id

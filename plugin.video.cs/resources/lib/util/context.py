@@ -22,6 +22,7 @@ from resources.lib.util.views import save_view_mode
 import resources.lib.external.tvdb_api as tvdb_api
 import xbmc
 import xbmcaddon
+from language import get_string as _
 import __builtin__
 
 ADDON = xbmcaddon.Addon()
@@ -44,30 +45,34 @@ def get_context_items(item):
     """
     context = []
     content = item["content"]
-
+    # cache
+    if content == "":
+        context.append((_("Try Uncached"),
+                        "Container.Update({0})".format(
+                            get_addon_url("get_list_uncached", item["link"]))))
     # information
     context.append((xbmcaddon.Addon().getLocalizedString(30708),
                     "XBMC.Action(Info)"))
 
     # view modes
     if content == "movie":
-        context.append(("Set Movie View",
+        context.append((_("Set Movie View"),
                         "RunPlugin({0})".format(
                             get_addon_url("save_view_mode", "movies"))))
     elif content == "tvshow":
-        context.append(("Set TV Show View",
+        context.append((_("Set TV Show View"),
                         "RunPlugin({0})".format(
                             get_addon_url("save_view_mode", "tvshows"))))
     elif content == "season":
-        context.append(("Set Season View",
+        context.append((_("Set Season View"),
                         "RunPlugin({0})".format(
                             get_addon_url("save_view_mode", "seasons"))))
     elif content == "episode":
-        context.append(("Set Episode View",
+        context.append((_("Set Episode View"),
                         "RunPlugin({0})".format(
                             get_addon_url("save_view_mode", "episodes"))))
     else:
-        context.append(("Set View",
+        context.append((_("Set View"),
                         "RunPlugin({0})".format(
                             get_addon_url("save_view_mode", "other"))))
 
@@ -75,26 +80,26 @@ def get_context_items(item):
     if xbmc.getCondVisibility("system.hasaddon(script.qlickplay)") or \
        xbmc.getCondVisibility("system.hasaddon(script.extendedinfo)"):
         if content == "movie":
-            context.append(("Extended info",
+            context.append((_("Extended info"),
                             "RunPlugin({0})".format(
                                 get_addon_url("movie_extended_info",
                                               item["imdb"]))))
         elif content == "tvshow":
-            context.append(("Extended info",
+            context.append((_("Extended info"),
                             "RunPlugin({0})".format(
                                 get_addon_url("tvshow_extended_info",
                                               item["imdb"]))))
         elif content == "season":
             url = "{'imdb': '%s', 'season': %s}" %\
                   (item["imdb"], item["season"])
-            context.append(("Extended info",
+            context.append((_("Extended info"),
                             "RunPlugin({0})".format(
                                 get_addon_url("season_extended_info",
                                               url))))
         elif content == "episode":
             url = "{'imdb': '%s', 'season': %s, 'episode': %s}" %\
                   (item["imdb"], item["season"], item["episode"])
-            context.append(("Extended info",
+            context.append((_("Extended info"),
                             "RunPlugin({0})".format(
                                 get_addon_url("episode_extended_info",
                                               url))))
@@ -102,37 +107,37 @@ def get_context_items(item):
     # queue
     playlist = xbmc.PlayList(xbmc.PLAYLIST_VIDEO)
     if playlist.size() > 0:
-        context.append(("Play Queue",
+        context.append((_("Play Queue"),
                         "RunPlugin({0})".format(
                             get_addon_url("play_queue"))))
-        context.append(('Show Queue',
+        context.append((_('Show Queue'),
                         'Action("Playlist")'))
-        context.append(("Clear Queue",
+        context.append((_("Clear Queue"),
                         "RunPlugin({0})".format(
                             get_addon_url("clear_queue"))))
 
     if content == "movie":
-        context.append(("Queue Movie",
+        context.append((_("Queue Movie"),
                         "RunPlugin({0})".format(
                             get_addon_url("queue",
                                           item.item_string))))
     elif content == "tvshow":
-        context.append(("Queue TV Show",
+        context.append((_("Queue TV Show"),
                         "RunPlugin({0})".format(
                             get_addon_url("queue",
                                           item.item_string))))
     elif content == "season":
-        context.append(("Queue Season",
+        context.append((_("Queue Season"),
                         "RunPlugin({0})".format(
                             get_addon_url("queue",
                                           item.item_string))))
     elif content == "episode":
-        context.append(("Queue Episode",
+        context.append((_("Queue Episode"),
                         "RunPlugin({0})".format(
                             get_addon_url("queue",
                                           item.item_string))))
     else:
-        context.append(("Queue Item",
+        context.append((_("Queue Item"),
                         "RunPlugin({0})".format(
                             get_addon_url("queue",
                                           item.item_string))))

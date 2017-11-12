@@ -2,8 +2,8 @@
         <!-- customization settings -->
     <category label="Customization">
       <setting label="Display" type="lsep"/>
-      <setting label="Enable Settings Context item" type="bool" id="settings_context" default="false"/>
-      <setting label="Enable Trailer Context item" type="bool" id="trailer_context" default="false"/>
+      <setting label="Enable Settings Context item" type="bool" id="settings_context" default="true"/>
+      <setting label="Enable Trailer Context item" type="bool" id="trailer_context" default="true"/>
       <setting label="32505" type="lsep"/>
       <setting label="32506" type="select"
                values="system|bg|cs|da|de|el|en|es|fi|fr|he|hr|hu|it|ja|ko|nl|no|pl|pt|ru|sl|sv|tr|zh"
@@ -23,16 +23,16 @@
     <category label="30715">
       <setting label="30718" type="lsep"/>
       <setting label="30719" type="action" option="close"
-               action="RunPlugin(plugin://plugin.video.jen/?mode=clearCache)"/>
+               action="RunPlugin(plugin://plugin.video.cs/?mode=clearCache)"/>
       <setting label="30733" type="lsep"/>
       <!-- scraper settings -->
       <setting label="30734" type="action" option="close"
-               action="RunPlugin(plugin://plugin.video.jen/?mode=ScraperSettings)"/>
-      <setting id="use_link_dialog"		label="30744"			type="bool"		default="false" />
-      <setting id="link_fallthrough" label="30745" type="bool"	default="true" visible="eq(-1,true)"/>
+               action="RunPlugin(plugin://plugin.video.cs/?mode=ScraperSettings)"/>
+      <setting id="use_link_dialog"		label="30744"			type="bool"		default="true" />
+      <setting id="link_fallthrough" label="30745" type="bool"	default="false" visible="eq(-1,true)"/>
       <setting label="30741" type="lsep"/>
       <setting label="30742" type="action" option="close"
-               action="RunPlugin(plugin://plugin.video.jen/?mode=ResolverSettings)"/>
+               action="RunPlugin(plugin://plugin.video.cs/?mode=ResolverSettings)"/>
       <!-- filtering settings -->
       <setting label="30735" type="lsep"/>
       <setting id="allow_openload" label="30736" type="bool" default="false"/>
@@ -56,7 +56,7 @@
     <category label="30770">
       <!-- debugging and developer options -->
       <setting id="debug" type="bool" label="30758" default="false" visible="true"/>
-      <setting label="Cache Location" id="cache_folder" type="folder" default="special://profile/addon_data/plugin.video.jen/"/>
+      <setting label="Cache Location" id="cache_folder" type="folder" default="special://profile/addon_data/plugin.video.cs/"/>
     </category>
 
 

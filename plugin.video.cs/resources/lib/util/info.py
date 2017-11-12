@@ -25,9 +25,12 @@ import time
 import requests
 import resources.lib.external.tmdbsimple as tmdbsimple
 import resources.lib.external.tvdb_api as tvdb_api
+from resources.lib.plugin import run_hook
 from koding import route
+import koding
 import pickle
 import __builtin__
+from language import get_string as _
 
 ADDON = xbmcaddon.Addon()
 TRAKT_API_ENDPOINT = "https://api.trakt.tv"
@@ -71,12 +74,13 @@ def get_movie_metadata(movie_id):
                 'trakt-api-key': TRAKT_CLIENT_ID
             }
             url = TRAKT_API_ENDPOINT + "/movies/" + movie_id + '?extended=full'
-            info = requests.get(url, headers=headers).json()
+            info = requests.get(url, headers=headers, verify=False).json()
+            xbmc.log("info:" + repr(info), xbmc.LOGNOTICE)
             if LANG != "en":
                 translation_url = TRAKT_API_ENDPOINT + \
                     "/movies/" + movie_id + "/translations/" + LANG
                 translation_info = requests.get(
-                    translation_url, headers=headers).json()
+                    translation_url, headers=headers, verify=False).json()
                 if translation_info:
                     translation_info = translation_info[0]
                     for key in translation_info.iterkeys():
@@ -180,8 +184,12 @@ converts tmdb movie metadata to format suited for kodiswift
                 [genres_dict[x] for x in movie['genre_ids']])
         else:
             info['genre'] = ''
-    if movie.get('trailer'):
-        info['trailer'] = make_trailer(movie['trailer'])
+    videos = tmdbsimple.Movies(movie["id"]).videos()
+    for video in videos["results"]:
+        xbmc.log("video:" + repr(video), xbmc.LOGNOTICE)
+        if video["type"] == "Trailer" and video["site"] == "YouTube":
+            info["trailer"] = 'plugin://plugin.video.youtube/play/?video_id=%s' % (video["key"])
+            break
     return info
 
 
@@ -222,12 +230,12 @@ def get_show_metadata(show_id):
                 'trakt-api-key': TRAKT_CLIENT_ID
             }
             url = TRAKT_API_ENDPOINT + "/shows/" + show_id + '?extended=full'
-            info = requests.get(url, headers=headers).json()
+            info = requests.get(url, headers=headers, verify=False).json()
             if LANG != "en":
                 translation_url = TRAKT_API_ENDPOINT + \
                     "/shows/" + show_id + "/translations/" + LANG
                 translation_info = requests.get(
-                    translation_url, headers=headers).json()
+                    translation_url, headers=headers, verify=False).json()
                 if translation_info:
                     translation_info = translation_info[0]
                     for key in translation_info.iterkeys():
@@ -284,7 +292,8 @@ def _convert_trakt_tvshow_metadata(show, genres_dict=None):
     return info
 
 
-def _convert_tvdb_tvshow_metadata(tvdb_show, imdb_id, banners=True, language="en"):
+def _convert_tvdb_tvshow_metadata(tvdb_show, imdb_id, banners=True,
+                                  language="en"):
     """
     converts tvdb tv show metadata to format suited for kodiswift
     Args:
@@ -350,14 +359,14 @@ def get_episode_metadata(show_id, season_num, episode_num):
             url = '{0}/shows/{1}/seasons/{2}/episodes/{3}?extended=full'.format(
                 TRAKT_API_ENDPOINT, show_id, season_num, episode_num)
             show_metadata = get_show_metadata(show_id)
-            info = requests.get(url, headers=headers).json()
+            info = requests.get(url, headers=headers, verify=False).json()
             if LANG != "en":
                 translation_url = TRAKT_API_ENDPOINT + \
                     "/shows/{1}/seasons/{2}/episodes/{3}/translations/{4}".format(
                         TRAKT_API_ENDPOINT, show_id, season_num,
                         episode_num, LANG)
                 translation_info = requests.get(
-                    translation_url, headers=headers).json()
+                    translation_url, headers=headers, verify=False).json()
                 if translation_info:
                     translation_info = translation_info[0]
                     for key in translation_info.iterkeys():
@@ -427,7 +436,8 @@ def _convert_tvdb_season_metadata(show_metadata,
     return info
 
 
-def _convert_tvdb_episode_metadata(imdb_id , season_metadata, episode, banners=True):
+def _convert_tvdb_episode_metadata(imdb_id , season_metadata, episode,
+                                   banners=True):
     """
     converts tvdb episode metadata to format suited for kodiswift
     Args:
@@ -704,7 +714,7 @@ retrieve genre information from trakt
         'trakt-api-key': TRAKT_CLIENT_ID
     }
     url = TRAKT_API_ENDPOINT + '/genres/' + genre_type
-    info = requests.get(url, headers=headers).json()
+    info = requests.get(url, headers=headers, verify=False).json()
     genres_dict = dict([(x['slug'], x['name']) for x in info])
     return genres_dict
 
@@ -719,7 +729,7 @@ def tv_get_extended_info(imdb):
         'trakt-api-key': TRAKT_CLIENT_ID
     }
     url = TRAKT_API_ENDPOINT + "/search/imdb/" + imdb + '?type=show'
-    info = requests.get(url, headers=headers).json()[0]
+    info = requests.get(url, headers=headers, verify=False).json()[0]
     tvdb = info["show"]["ids"]["tvdb"]
 
     if xbmc.getCondVisibility("system.hasaddon(script.qlickplay)"):
@@ -745,7 +755,7 @@ def season_get_extended_info(item):
         'trakt-api-key': TRAKT_CLIENT_ID
     }
     url = TRAKT_API_ENDPOINT + "/search/imdb/" + imdb + '?type=show'
-    info = requests.get(url, headers=headers).json()[0]
+    info = requests.get(url, headers=headers, verify=False).json()[0]
     title = info["show"]["title"]
 
     if xbmc.getCondVisibility("system.hasaddon(script.qlickplay)"):
@@ -772,7 +782,7 @@ def episode_get_extended_info(item):
         'trakt-api-key': TRAKT_CLIENT_ID
     }
     url = TRAKT_API_ENDPOINT + "/search/imdb/" + imdb + '?type=show'
-    info = requests.get(url, headers=headers).json()[0]
+    info = requests.get(url, headers=headers, verify=False).json()[0]
     title = str(info["show"]["title"])
 
     if xbmc.getCondVisibility("system.hasaddon(script.qlickplay)"):
@@ -807,6 +817,10 @@ def parse_year(text):
 
 def get_info(items, dialog=None):
     from resources.lib.util.xml import JenItem
+    result = run_hook("get_info", items, dialog)
+    if result:
+        return result
+    koding.reset_db()
     info = []
     num_items = len(items)
     for index, item_xml in enumerate(items):
@@ -815,7 +829,7 @@ def get_info(items, dialog=None):
                 dialog.close()
                 break
             percent = ((index + 1) * 100) / num_items
-            dialog.update(percent, "processing metadata",
+            dialog.update(percent, _("processing metadata"),
                           "%s of %s" % (index + 1, num_items))
         if type(item_xml) == dict:
             item = item_xml
@@ -831,13 +845,18 @@ def get_info(items, dialog=None):
             elif content == "episode":
                 item_info = get_episode_metadata(item["imdb"], item["season"],
                                                  item["episode"])
+            if type(item_info) == list:
+                item_info = {}
+            if not item_info.get("plotoutline", None):
+                item_info["plotoutline"] = item_info.get("plot", "")
         except Exception as e:
-            xbmc.log("info error: " + repr(e))
+            koding.dolog("info error: " + repr(e))
         summary = item.get("summary", False)
         if summary:
             if not item_info or type(item_info) != dict:
                 item_info = {}
             item_info["plot"] = summary
+            item_info["manual"] = True
 
         info.append(item_info)
     if dialog:

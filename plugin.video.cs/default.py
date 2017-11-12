@@ -26,13 +26,14 @@ __builtin__.tvdb_api_key = "CDD0D30529BB0998"  # tvdb api key
 __builtin__.tmdb_api_key = "0b68fef54cc633aa8f09417513e04e09"  # tmdb api key
 __builtin__.trakt_client_id = ""  # trakt client id
 __builtin__.trakt_client_secret = ""  # trakt client secret
-
+__builtin__.search_db_location = ""  # location of search db
 
 import os
 import sys
 
 import koding
 import koding.router as router
+import resources.lib.search
 import resources.lib.sources
 import resources.lib.testings
 import resources.lib.util.info
@@ -42,8 +43,11 @@ import xbmcplugin
 from koding import route
 from resources.lib.util.xml import JenList, display_list
 import resources.lib.util.views
+from resources.lib.plugins import *
+from language import get_string as _
+from resources.lib.plugin import run_hook
 
-# Addon Variables
+
 addon_id = xbmcaddon.Addon().getAddonInfo('id')
 addon_name = xbmcaddon.Addon().getAddonInfo('name')
 home_folder = xbmc.translatePath('special://home/')
@@ -55,18 +59,25 @@ content_type = "files"
 @route("main")
 def root():
     """root menu of the addon"""
-    base = root_xml_url
-    if not get_list(base):
+    if not get_list(root_xml_url):
         koding.Add_Dir(
-            name="Message",
-            url="Sorry, server is down",
+            name=_("Message"),
+            url=_("Sorry, server is down"),
             mode="message",
             folder=True,
             icon=xbmcaddon.Addon().getAddonInfo("icon"),
             fanart=xbmcaddon.Addon().getAddonInfo("fanart"),
             content_type="")
         koding.Add_Dir(
-            name="Testings",
+            name=_("Search"),
+            url="",
+            mode="Search",
+            folder=True,
+            icon=xbmcaddon.Addon().getAddonInfo("icon"),
+            fanart=xbmcaddon.Addon().getAddonInfo("fanart"),
+            content_type="")
+        koding.Add_Dir(
+            name=_("Testings"),
             url='{"file_name":"testings.xml"}',
             mode="Testings",
             folder=True,
@@ -75,11 +86,30 @@ def root():
             content_type="")
 
 
+@route(mode='get_list_uncached', args=["url"])
+def get_list_uncached(url):
+    """display jen list uncached"""
+    global content_type
+    jen_list = JenList(url, cached=False)
+    if not jen_list:
+        koding.dolog(_("returned empty for ") + url)
+    items = jen_list.get_list()
+    content = jen_list.get_content_type()
+    if items == []:
+        return False
+    if content:
+        content_type = content
+    display_list(items, content_type)
+    return True
+
+
 @route(mode="get_list", args=["url"])
 def get_list(url):
     """display jen list"""
     global content_type
     jen_list = JenList(url)
+    if not jen_list:
+        koding.dolog(_("returned empty for ") + url)
     items = jen_list.get_list()
     content = jen_list.get_content_type()
     if items == []:
@@ -98,13 +128,13 @@ def all_episodes(url):
     season_urls = pickle.loads(url)
     result_items = []
     dialog = xbmcgui.DialogProgress()
-    dialog.create(addon_name, "Loading items")
+    dialog.create(addon_name, _("Loading items"))
     num_urls = len(season_urls)
     for index, season_url in enumerate(season_urls):
         if dialog.iscanceled():
             break
         percent = ((index + 1) * 100) / num_urls
-        dialog.update(percent, "processing lists", "%s of %s" % (index + 1,
+        dialog.update(percent, _("processing lists"), _("%s of %s") % (index + 1,
                                                                  num_urls))
 
         jen_list = JenList(season_url)
@@ -141,17 +171,18 @@ def show_message(message):
 def clear_cache():
     import xbmcgui
     dialog = xbmcgui.Dialog()
-    if dialog.yesno(addon_name, "Clear Metadata?"):
+    if dialog.yesno(addon_name, _("Clear Metadata?")):
         koding.Remove_Table("meta")
         koding.Remove_Table("episode_meta")
-    if dialog.yesno(addon_name, "Clear Scraper Cache?"):
+    if dialog.yesno(addon_name, _("Clear Scraper Cache?")):
         import nanscrapers
         nanscrapers.clear_cache()
-    if dialog.yesno(addon_name, "Clear GIF Cache?"):
+    if dialog.yesno(addon_name, _("Clear GIF Cache?")):
         dest_folder = os.path.join(
             xbmc.translatePath(xbmcaddon.Addon().getSetting("cache_folder")),
             "artcache")
         koding.Delete_Folders(dest_folder)
+    run_hook("clear_cache")
 
 
 def get_addon_url(mode, url=""):
@@ -163,7 +194,18 @@ def get_addon_url(mode, url=""):
     return result
 
 
-if xbmc.getInfoLabel("Container.FolderName") == "":
+def first_run_wizard():
+    result = run_hook("first_run_wizard")
+    if result:
+        return
+
+
+# koding.User_Info()
+if xbmcaddon.Addon().getSetting("first_run") == "true":
+    first_run_wizard()
+
+foldername = xbmc.getInfoLabel("Container.FolderName")
+if foldername in ["", "plugin.program.super.favourites"]:
     __builtin__.JEN_WIDGET = True
 else:
     __builtin__.JEN_WIDGET = False
@@ -172,4 +214,6 @@ router.Run()
 
 xbmcplugin.endOfDirectory(int(sys.argv[1]), cacheToDisc=False)
 if not xbmcaddon.Addon().getSetting("first_run") == "true":
+    if content_type == "files":
+        content_type = "other"
     resources.lib.util.views.set_list_view_mode(content_type)

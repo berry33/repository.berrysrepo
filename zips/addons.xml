@@ -36,7 +36,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.cs" name="The couchsurfer Collection" version="1.0.1" provider-name="Berry">
+<addon id="plugin.video.cs" name="The couchsurfer Collection" version="1.0.1.2" provider-name="Berry">
         <requires>
                 <import addon="xbmc.python" version="2.19.0" />
                 <import addon="script.module.nanscrapers" version="0.5.5" />

@@ -18,7 +18,6 @@
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 """
 import os
-import __builtin__
 import urllib
 import sys
 import urllib2
@@ -29,9 +28,9 @@ import xbmc
 import xbmcaddon
 import xbmcvfs
 import koding
-import shutil
 import requests
-
+from resources.lib.plugin import run_hook
+from language import get_string as _
 
 def __replace_gif(url):
     """ put gifs in local cache
@@ -51,7 +50,7 @@ def __replace_gif(url):
             os.path.join(dest_folder, parts[-2] + parts[-1]))
         if not xbmcvfs.exists(dest):
             try:
-                response = requests.get(url, timeout=10)
+                response = requests.get(url, timeout=10, verify=False)
             except:
                 return None
             if response.status_code == 200:
@@ -63,12 +62,14 @@ def __replace_gif(url):
                     del data
                     del response
                 if os.path.getsize(dest) == 0:
-                    xbmc.log("0 size gif: " + repr(dest))
+                    koding.dolog("0 size gif: " + repr(dest))
                     os.remove(dest)
                     return None
                 else:
-                    xbmc.log("size: " + repr(os.path.getsize(dest)))
+                    koding.dolog("size: " + repr(os.path.getsize(dest)))
             else:
+                koding.Text_Box(xbmcaddon.Addon().getAddonInfo('name'),
+                                _("gif not found: ") + url)
                 return None
         xbmc.log("gif done: " + repr(dest))
         return dest
@@ -82,8 +83,9 @@ def replace_url(url, replace_gif=True):
     replace_gif -- whether to place gifs into cache to enable motion
                    (default True)
     """
-    # add url replace rules here
-
+    result = run_hook("replace_url", url)
+    if result:
+        url = result
     enable_gifs = xbmcaddon.Addon().getSetting('enable_gifs') == "true"
     if enable_gifs and replace_gif:
         return __replace_gif(url)

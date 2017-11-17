@@ -88,7 +88,7 @@
 
 <addon id="plugin.video.steeple"
 	name="steeple"
-	version="1.1"
+	version="1.1.0"
 	provider-name="MainStreet">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>

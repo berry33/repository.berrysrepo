@@ -61,7 +61,7 @@ def main_list(params):
         title="Quilt in a Day",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_1+"/",
         thumbnail="https://yt3.ggpht.com/-S65m6nYWin8/AAAAAAAAAAI/AAAAAAAAAAA/9SHRcwHT6Ww/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -69,7 +69,7 @@ def main_list(params):
         title="Missouri Star Quilt Company",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_2+"/",
         thumbnail="https://yt3.ggpht.com/-WV_NWdK6_TU/AAAAAAAAAAI/AAAAAAAAAAA/YWd1lo9KQFQ/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -77,7 +77,7 @@ def main_list(params):
         title="Sew Very Easy",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_3+"/",
         thumbnail="https://yt3.ggpht.com/-uZX7yH7CI_o/AAAAAAAAAAI/AAAAAAAAAAA/nDbRHPd0UEg/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -85,7 +85,7 @@ def main_list(params):
         title="Jordan Fabrics",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_4+"/",
         thumbnail="https://yt3.ggpht.com/-eCbDYHlhtQk/AAAAAAAAAAI/AAAAAAAAAAA/Yim974U13yc/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+        fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -93,7 +93,7 @@ def main_list(params):
         title="Man Sewing ",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_5+"/",
         thumbnail="https://yt3.ggpht.com/-CKMYi_zfnDo/AAAAAAAAAAI/AAAAAAAAAAA/udcsf4CQx3U/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+        fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -101,7 +101,7 @@ def main_list(params):
         title="Talk Quilting",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_6+"/",
         thumbnail="https://yt3.ggpht.com/-KYsXoK-qTao/AAAAAAAAAAI/AAAAAAAAAAA/yPu1aaQpy_0/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+        fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -109,7 +109,7 @@ def main_list(params):
         title="Fat Quarter Shop",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_7+"/",
         thumbnail="https://yt3.ggpht.com/-UPZQ-g28l3I/AAAAAAAAAAI/AAAAAAAAAAA/9_xkbCZXFes/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+        fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
 
@@ -118,7 +118,7 @@ def main_list(params):
         title="Gourmet Quilter",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_8+"/",
         thumbnail="https://yt3.ggpht.com/-6hXfhA4kU7A/AAAAAAAAAAI/AAAAAAAAAAA/NDPTo7tJS4c/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+        fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -126,7 +126,7 @@ def main_list(params):
         title="Shabby Fabrics",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_9+"/",
         thumbnail="https://yt3.ggpht.com/-vgIadHGDnq4/AAAAAAAAAAI/AAAAAAAAAAA/YVUG9EGt1aA/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+        fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -134,7 +134,7 @@ def main_list(params):
         title="Sharon Schamber Network",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_10+"/",
         thumbnail="https://yt3.ggpht.com/-JzCJpyus9tM/AAAAAAAAAAI/AAAAAAAAAAA/k5s_iaLDzlM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+        fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -142,7 +142,7 @@ def main_list(params):
         title="Sewing with Nancy",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_11+"/",
         thumbnail="https://yt3.ggpht.com/-ZBNHOuaHM_I/AAAAAAAAAAI/AAAAAAAAAAA/SxCaEMemFeY/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+        fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -150,7 +150,7 @@ def main_list(params):
         title="Leah Day",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_12+"/",
         thumbnail="https://yt3.ggpht.com/-xBYd5kgI1Fk/AAAAAAAAAAI/AAAAAAAAAAA/DiwQ8BTCmIk/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+        fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -158,7 +158,7 @@ def main_list(params):
         title="Angela Walters",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_13+"/",
         thumbnail="https://yt3.ggpht.com/-NFD-yiYcSfo/AAAAAAAAAAI/AAAAAAAAAAA/rTGqtiE4pPM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+        fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -166,7 +166,7 @@ def main_list(params):
         title="The Midnight Quilt Show",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_14+"/",
         thumbnail="https://yt3.ggpht.com/-MSu7-Uf1SlE/AAAAAAAAAAI/AAAAAAAAAAA/ZI5u5gF9PFk/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+        fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -174,7 +174,7 @@ def main_list(params):
         title="Fabric Juncition",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_15+"/",
         thumbnail="https://yt3.ggpht.com/-shUuJKHhBPE/AAAAAAAAAAI/AAAAAAAAAAA/hshsag7c27c/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+        fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -182,7 +182,7 @@ def main_list(params):
         title="Paula Storm",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_16+"/",
         thumbnail="https://yt3.ggpht.com/-KoJyOLClOKs/AAAAAAAAAAI/AAAAAAAAAAA/qnp8nMKRsh8/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-        fanart="http://berryburchett.net/kodi/addons/crabby/fanart.jpg",
+        fanart="http://berryburchett.net/couch/addons/crabby/fanart.jpg",
         folder=True )
 
 

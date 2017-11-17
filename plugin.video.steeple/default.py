@@ -47,7 +47,7 @@ def main_list(params):
         title="Evangelistic Outreach",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_1+"/",
         thumbnail="http://berryburchett.net/kodi/addons/steeple/icons/calvinray_brian.jpg",
-		fanart="http://berryburchett.net/kodi/addons/steeple/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/steeple/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -55,7 +55,7 @@ def main_list(params):
         title="Beth Moore",
         url="plugin://plugin.video.youtube/search/?q=Beth Moore"+"/",
         thumbnail="http://berryburchett.net/kodi/addons/steeple/icons/beth.jpg",
-		fanart="http://berryburchett.net/kodi/addons/steeple/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/steeple/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -63,7 +63,7 @@ def main_list(params):
         title="Creflo Dollar",
         url="plugin://plugin.video.youtube/search/?q=creflo dollar"+"/",
         thumbnail="http://berryburchett.net/kodi/addons/steeple/icons/Greflo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/steeple/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/steeple/fanart.jpg",
         folder=True )
 
 
@@ -72,7 +72,7 @@ def main_list(params):
         title="Joel Osteen",
         url="plugin://plugin.video.youtube/search/?q=joel osteen"+"/",
         thumbnail="http://berryburchett.net/kodi/addons/steeple/icons/Joel.jpg",
-		fanart="http://berryburchett.net/kodi/addons/steeple/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/steeple/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -80,7 +80,7 @@ def main_list(params):
         title="John Hagee",
         url="plugin://plugin.video.youtube/search/?q=john hagee"+"/",
         thumbnail="http://berryburchett.net/kodi/addons/steeple/icons/John.jpg",
-		fanart="http://berryburchett.net/kodi/addons/steeple/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/steeple/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -88,7 +88,7 @@ def main_list(params):
         title="Charles Stanley",
         url="plugin://plugin.video.youtube/search/?q=charles stanley"+"/",
         thumbnail="http://berryburchett.net/kodi/addons/steeple/icons/charles.jpg",
-		fanart="http://berryburchett.net/kodi/addons/steeple/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/steeple/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -96,7 +96,7 @@ def main_list(params):
         title="David Jeremiah",
         url="plugin://plugin.video.youtube/search/?q=david jeremiah"+"/",
         thumbnail="http://berryburchett.net/kodi/addons/steeple/icons/david.jpg",
-		fanart="http://berryburchett.net/kodi/addons/steeple/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/steeple/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -104,7 +104,7 @@ def main_list(params):
         title="Jesse Duplantis",
         url="plugin://plugin.video.youtube/search/?q=jesse duplantis"+"/",
         thumbnail="http://berryburchett.net/kodi/addons/steeple/icons/jesse.jpg",
-		fanart="http://berryburchett.net/kodi/addons/steeple/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/steeple/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -112,7 +112,7 @@ def main_list(params):
         title="Joyce Meyer",
         url="plugin://plugin.video.youtube/search/?q=joyce meyer"+"/",
         thumbnail="http://berryburchett.net/kodi/addons/steeple/icons/joyce.jpg",
-		fanart="http://berryburchett.net/kodi/addons/steeple/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/steeple/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -120,7 +120,7 @@ def main_list(params):
         title="T.D. Jakes",
         url="plugin://plugin.video.youtube/search/?q=td jakes"+"/",
         thumbnail="http://berryburchett.net/kodi/addons/steeple/icons/td.jpg",
-		fanart="http://berryburchett.net/kodi/addons/steeple/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/steeple/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -128,7 +128,7 @@ def main_list(params):
         title="Christian Movies",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_2+"/",
         thumbnail="http://berryburchett.net/kodi/addons/steeple/icons/movie-icon-6.png",
-		fanart="http://berryburchett.net/kodi/addons/steeple/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/steeple/fanart.jpg",
         folder=True )
 
     		

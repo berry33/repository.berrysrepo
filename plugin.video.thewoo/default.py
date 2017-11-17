@@ -48,7 +48,7 @@ def main_list(params):
         title="The Daily Woo",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_1+"/",
         thumbnail="https://yt3.ggpht.com/-7cmuWk3x9L4/AAAAAAAAAAI/AAAAAAAAAAA/_ieuIiPHNT8/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/woo/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/woo/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -56,7 +56,7 @@ def main_list(params):
         title="Adam The Woo",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_2+"/",
         thumbnail="https://yt3.ggpht.com/-I-08Ixv_ops/AAAAAAAAAAI/AAAAAAAAAAA/dOH0oWRAtac/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/woo/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/woo/fanart.jpg",
         folder=True )
 
 

@@ -58,7 +58,7 @@ def main_list(params):
         title="Fresh Baked Disney",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_1+"/",
         thumbnail="https://yt3.ggpht.com/-ZfzE5DaVG3M/AAAAAAAAAAI/AAAAAAAAAAA/19M2tTnZuuc/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/msd/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/msd/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -66,7 +66,7 @@ def main_list(params):
         title="MickeyViews",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_2+"/",
         thumbnail="https://yt3.ggpht.com/-r0HwtrE0yOg/AAAAAAAAAAI/AAAAAAAAAAA/4xH638WADys/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/msd/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/msd/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -74,7 +74,7 @@ def main_list(params):
         title="Network 1901",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_3+"/",
         thumbnail="https://yt3.ggpht.com/-RtP6VgKAIhQ/AAAAAAAAAAI/AAAAAAAAAAA/Om9tVkkt--Y/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/msd/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/msd/fanart.jpg",
         folder=True )
 		
     plugintools.add_item( 
@@ -82,7 +82,7 @@ def main_list(params):
         title="Resort TV1",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_4+"/",
         thumbnail="https://yt3.ggpht.com/-gW2DFTsDngs/AAAAAAAAAAI/AAAAAAAAAAA/-YET1pZHfAI/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/msd/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/msd/fanart.jpg",
         folder=True )
 		
     plugintools.add_item( 
@@ -90,7 +90,7 @@ def main_list(params):
         title="Dis Unplugged",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_5+"/",
         thumbnail="https://yt3.ggpht.com/-nEVT-SlFvnY/AAAAAAAAAAI/AAAAAAAAAAA/aeyyr0cPfvQ/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/msd/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/msd/fanart.jpg",
         folder=True )
 		
     plugintools.add_item( 
@@ -98,7 +98,7 @@ def main_list(params):
         title="Disney Food Blog (DFB)",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_6+"/",
         thumbnail="https://yt3.ggpht.com/-MGge2enahgQ/AAAAAAAAAAI/AAAAAAAAAAA/tXZaNAmyYSw/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/msd/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/msd/fanart.jpg",
         folder=True )
 		
     plugintools.add_item( 
@@ -106,7 +106,7 @@ def main_list(params):
         title="DSNY Newscast",
         url="plugin://plugin.video.youtube/channel/"+YOUTUBE_CHANNEL_ID_7+"/",
         thumbnail="https://yt3.ggpht.com/--hVDILJ4jkE/AAAAAAAAAAI/AAAAAAAAAAA/M6_SbistgG4/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/msd/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/msd/fanart.jpg",
         folder=True )
 		
     plugintools.add_item( 
@@ -114,7 +114,7 @@ def main_list(params):
         title="Mouse Steps",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_8+"/",
         thumbnail="https://yt3.ggpht.com/-PvvwOIrt6U0/AAAAAAAAAAI/AAAAAAAAAAA/wG9FTeUDFSM/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/msd/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/msd/fanart.jpg",
         folder=True )
 		
     plugintools.add_item( 
@@ -122,7 +122,7 @@ def main_list(params):
         title="Inside The Magic (Disney & More)",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_9+"/",
         thumbnail="https://yt3.ggpht.com/-4UNiG4mCZhg/AAAAAAAAAAI/AAAAAAAAAAA/PJnWvP7ewvA/s100-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/msd/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/msd/fanart.jpg",
         folder=True )
 
     plugintools.add_item( 
@@ -130,7 +130,7 @@ def main_list(params):
         title="All Central Florida",
         url="plugin://plugin.video.youtube/user/"+YOUTUBE_CHANNEL_ID_12+"/",
         thumbnail="https://yt3.ggpht.com/-qyLiDiQqlk0/AAAAAAAAAAI/AAAAAAAAAAA/kwf4ypudeeE/s288-c-k-no-mo-rj-c0xffffff/photo.jpg",
-		fanart="http://berryburchett.net/kodi/addons/msd/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/msd/fanart.jpg",
         folder=True )
 		
     plugintools.add_item( 
@@ -138,7 +138,7 @@ def main_list(params):
         title="Ride Throughs",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_10+"/",
         thumbnail="http://berryburchett.net/kodi/addons/msd/icon.png",
-		fanart="http://berryburchett.net/kodi/addons/msd/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/msd/fanart.jpg",
         folder=True )
 		
     plugintools.add_item( 
@@ -146,7 +146,7 @@ def main_list(params):
         title="Disney Park Shows",
         url="plugin://plugin.video.youtube/playlist/"+YOUTUBE_CHANNEL_ID_11+"/",
         thumbnail="http://berryburchett.net/kodi/addons/msd/icon.png",
-		fanart="http://berryburchett.net/kodi/addons/msd/fanart.jpg",
+		fanart="http://berryburchett.net/couch/addons/msd/fanart.jpg",
         folder=True )
 		
 		

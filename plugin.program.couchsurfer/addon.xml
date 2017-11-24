@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.couchsurfer" name="Couch Surfer Wizard" version="0.1.9" provider-name="Couch Surfer">
+<addon id="plugin.program.couchsurfer" name="Couch Surfer Wizard" version="0.2.1" provider-name="Couch Surfer">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -9,7 +9,7 @@
   <extension point="xbmc.service" library="startup.py" start="startup" />
   <extension point="xbmc.addon.metadata">
     <summary lang="en">Couch Surfer Wizard</summary>
-    <description lang="en">Get Couch Surfer Build</description>
+    <description lang="en">Install and maintain the Couch Surfer Build</description>
     <platform>all</platform>
   </extension>
 </addon>

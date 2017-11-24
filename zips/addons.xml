@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.program.couchsurfer" name="Couch Surfer Wizard" version="0.1.8" provider-name="Couch Surfer">
+<addon id="plugin.program.couchsurfer" name="Couch Surfer Wizard" version="0.1.9" provider-name="Couch Surfer">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
@@ -12,30 +12,6 @@
     <summary lang="en">Couch Surfer Wizard</summary>
     <description lang="en">Get Couch Surfer Build</description>
     <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.program.xbmchub.notifications" version="99.0.2"
-       name="Notifications" provider-name="tvaddons.ag">
-  <requires>
-  	<import addon="xbmc.python" version="2.1.0"/>
-  	<import addon="script.module.addon.common" optional="true" />
-  </requires>
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>executable</provides>
-  </extension>
-  <extension point="xbmc.service" library="service.py" start="startup">
-  </extension>
-  <extension point="xbmc.addon.metadata">
-  	<summary>Couch Surfer NEWS</summary>
-  	<description>Receive Important Couch Surfer Build Notifications.</description>
-  	<disclaimer></disclaimer>
-  	<language>en</language>
-  	<platform>all</platform>
-  	<forum></forum>
-  	<website></website>
-  	<source></source>
-  	<email></email>
   </extension>
 </addon>
 

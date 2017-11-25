@@ -101,12 +101,12 @@ REPOZIPURL     = ''
 ### NOTIFICATION WINDOW##################################
 #########################################################
 # Enable Notification screen Yes or No
-ENABLE         = 'Yes'
+ENABLE         = 'No'
 # Url to notification file
-NOTIFICATION   = 'http://berryburchett.net/couch/couchsurfer/note.txt'
+NOTIFICATION   = ''
 # Use either 'Text' or 'Image'
-HEADERTYPE     = 'text'
-HEADERMESSAGE  = 'Whats New'
+HEADERTYPE     = ''
+HEADERMESSAGE  = ''
 # url to image if using Image 424x180
 HEADERIMAGE    = ''
 # Background for Notification Window

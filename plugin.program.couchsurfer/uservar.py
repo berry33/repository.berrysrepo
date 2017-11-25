@@ -105,10 +105,10 @@ ENABLE         = 'Yes'
 # Url to notification file
 NOTIFICATION   = 'http://berryburchett.net/couch/couchsurfer/note.txt'
 # Use either 'Text' or 'Image'
-HEADERTYPE     = 'Text'
-HEADERMESSAGE  = 'What's New:'
+HEADERTYPE     = 'text'
+HEADERMESSAGE  = 'Whats New'
 # url to image if using Image 424x180
 HEADERIMAGE    = ''
 # Background for Notification Window
-BACKGROUND     = 'http://berryburchett.net/couch/couchsurfer/solid-black-background-hd-16.jpeg'
+BACKGROUND     = ''
 #########################################################

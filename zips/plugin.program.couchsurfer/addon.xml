@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.program.couchsurfer" name="The CouchSurfer Wizard" version="0.1.7a" provider-name="Berry">
+<addon id="plugin.program.couchsurfer" name="The CouchSurfer Wizard" version="0.1.8a" provider-name="Berry">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>

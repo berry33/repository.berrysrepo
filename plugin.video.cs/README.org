@@ -159,16 +159,20 @@ Open the default.py for your addon and add the search.db url to "__builtin__.sea
   </plugin>
 #+END_EXAMPLE
 ** Settings
-<plugin>
-<name>30701</name>
-<link>plugin://plugin.video.jen/?action=openSettings</link>
-<thumbnail></thumbnail>
-<summary>Settings for Jen Addons</summary>
-</plugin>
+#+BEGIN_SRC xml
+  <plugin>
+    <name>30701</name>
+    <link>plugin://plugin.video.jen/?action=openSettings</link>
+    <thumbnail></thumbnail>
+    <summary>Settings for Jen Addons</summary>
+  </plugin>
+#+END_SRC
 ** Search
-<plugin>
-<name>30702</name>
-<link>plugin://plugin.video.jen/?action=search</link>
-<thumbnail></thumbnail>
-<summary>Search for Jen Addon</summary>
-</plugin>
+#+BEGIN_SRC xml
+  <plugin>
+    <name>30702</name>
+    <link>plugin://plugin.video.jen/?action=search</link>
+    <thumbnail></thumbnail>
+    <summary>Search for Jen Addon</summary>
+  </plugin>
+#+END_SRC
